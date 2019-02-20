@@ -1,420 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="assets/images/favicon.png">
-
-    <!-- SEO 
-          ================================================== -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="icon" href="assets/images/favicon.png" />
     <title>DINH QUOC HUY - WEB DEVELOPER</title>
-    <meta name="author" content="Marwa El-Manawy <marwa@elmanawy.info>" />
-    <meta name="description" content="Welcome to the Marwa El-Manawy home page, entry point to information about innovative Marwa El-Manawy products and projects, business solutions and business consulting services">
-    <meta name="Keywords" content="Elmanawt, Marwa El-Manawy, Web Design, Web Development,IT infrastructure,business solutions,business consulting services,innovation,servers,storage solutions,software, outsourcing,web design,web development,software development,software company,social media,marketing,automation, مروة المناوي">
-
     <!-- CSS Files
           ================================================== -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.css" rel="stylesheet">
-    <link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/color/main.css" id="colors">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/css/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/color/main.css" id="colors" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="loading">
-        <img src="assets/images/loading.gif" alt="loading">
+      <img src="assets/images/loading.gif" alt="loading" />
     </div>
-    <div class="responsive-menu"><a href="index.html"> <b>MORACO</b></a> <a id="menu-icon" class="but" href="#"><span
-                class="ti-menu"><img src="assets/images/menu.png" alt="image"></span> </a></div>
+    <div class="responsive-menu">
+      <a href="index.html"> <b>QUOCHUY</b></a>
+      <a id="menu-icon" class="but" href="#"
+        ><span class="ti-menu"
+          ><img src="assets/images/menu.png" alt="image"
+        /></span>
+      </a>
+    </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <!-- START LEFT SIDE -->
-            <div class="col-sm-3 col-md-2 sidebar">
-                <div class="logo">
-                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                </div>
-                <ul class="nav nav-sidebar" id="navbar">
-                    <li class="active"><a href="#home" class="page-scroll">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#about" class="page-scroll">About</a></li>
-                    <li><a href="#skills" class="page-scroll">Skills</a></li>
-                    <li><a href="#resumes" class="page-scroll">Resumes</a></li>
-                    <li><a href="#contact" class="page-scroll">Contact</a></li>
-                </ul>
-                <div class="copyright">
-                    <p>
-                        © Moraco ALL RIGHTS RESERVED
-                        BY <a href="http://elmanawy.info/">MARWA EL-MANAWY</a>
-                    </p>
-                </div>
-
-            </div>
-            <!-- END LEFT SIDE -->
-
-            <!-- START CONTENT  -->
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main scroll-page">
-
-                <!-- START HOME SECTION-->
-                <section id="home" class="home" style="background: url('assets/images/bg.jpg');">
-                    <div class="home-overlay"></div>
-                    <div class="home-content" id="scroll-down">
-                        <div class="home-intro">
-                            <h2>Hello I'm</h2>
-                            <h1>DINH QUOC HUY</h1>
-                            <div class="type-wrap">
-                                <div id="typed-strings">
-                                    <span>Web Developer</span>
-                                    <span>Frontend Developer</span>
-                                </div>
-                                <span id="typed" style="white-space:pre;"></span>
-                            </div>
-                            <a download="dummy-resume.txt" class="download-link hvr-shutter-out-horizontal" onclick="Materialize.toast('Resume Download Successfully', 4000, 'rounded')"
-                                data-position="left" data-delay="50" href="dummy-resume.txt">Download My CV <i class="fa fa-download"></i></a>
-                        </div>
-                        <a class="scroll-down page-scroll" title="Scroll Down" href="#about"><i class="fa fa-circle"
-                                aria-hidden="true"></i></a>
-                    </div>
-                </section>
-                <!-- START HOME SECTION-->
-
-                <!-- START ABOUT SECTION-->
-                <section id="about" class="section wow fadeInUpBig">
-                    <div class="container-section">
-                        <div class="row">
-                            <div class="section-title">
-                                <h4>About Me</h4>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-3 profile-pic">
-                                <a class="profile-img" href="index.html"><img src="assets/images/pp.jpg" alt="image"></a>
-                                <h3 class="info-position">UX / UI Developer</h3>
-                            </div>
-                            <div class="col-sm-9">
-                                <div class="about-info row">
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"> <i class="fa fa-user" aria-hidden="true"></i></div>
-                                        <div class="info-text">
-                                            <span>Name</span>
-                                            Dinh Quoc Huy
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"> <i class="fa fa-envelope" aria-hidden="true"></i></div>
-                                        <div class="info-text">
-                                            <span>Email</span>
-                                            huydinhquoc7@gmail.com
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"><i class="fa fa-volume-control-phone"
-                                                aria-hidden="true"></i></div>
-                                        <div class="info-text">
-                                            <span>Phone</span>
-                                            0934193416
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"> <i class="fa fa-calendar" aria-hidden="true"></i></div>
-                                        <div class="info-text">
-                                            <span>Date Of Birthday</span>
-                                            12 Octember 1996
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="info-text">
-                                            <span>Address</span>
-                                            95/6F Tan Thoi Nhi Ward, Hoc Mon District, HCM City
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6 info-block wow fadeInRight">
-                                        <div class="info-icon hvr-trim"> <i class="fa fa-flag" aria-hidden="true"></i></div>
-                                        <div class="info-text">
-                                            <span>Nationality</span>
-                                            Viet Nam
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-12 social-profiles">
-                                        <span>Social Profiles </span>
-                                        <a class="hvr-pulse-grow facebook" href="https://www.facebook.com/huyniel"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow instagram" href="https://www.instagram.com/huyniel/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow github" href="https://github.com/huydinh96"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                    </div>
-
-                                    <div class="col-sm-12 about-content">
-                                        <p>
-                                            I have more than <b>10 years of experience</b> in the field of <b>Graphic
-                                                Design</b> , <b>Web Design</b>, <b>Web Development</b> and <b>Mobile
-                                                Application</b>. Specialized in Adobe web & graphic designing tools and
-                                            also in others tools. Professional in Corporate branding, Graphic
-                                            designing, Web Designing, visualization, GUI, graphics & animations for
-                                            e-learning, illustrations, web icons, flash web banner, flash intro
-                                            animations, logos, brochures, posters etc.
-                                        </p>
-                                        <p>
-                                            <b> My objectives</b> are increasing my knowledge in computer science
-                                            fields and new technologies especially, web development and web Design
-                                            field. Always looking forward to learn new technologies and be a part of a
-                                            huge change in the world.
-                                        </p>
-                                        <p class="twke3">
-                                            <span>Yours sincerely,</span>
-                                            <img src="assets/images/twke3.png" style="max-width:266px;" class="img-responsive"
-                                                alt="Image">
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-                <!-- END ABOUT SECTION-->
-
-                <!-- START SKILLS SECTION-->
-                <section id="skills" class="section wow fadeInUp">
-                    <div class="container-section">
-                        <div class="row">
-                            <div class="section-title">
-                                <h4>Skills</h4>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-sm-6 skill">
-                                <h2>marketable skills</h2>
-
-                                <div class="progress">
-                                    <div class="lead"> <i class="fa fa-desktop" aria-hidden="true"></i> Web Technology
-                                    </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="75%" style="width: 75%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"> <span>75%</span></div>
-                                </div>
-                                <div class="progress">
-                                    <div class="lead"> <i class="fa fa-mobile" aria-hidden="true"></i> Mobile
-                                        Application </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="75%" style="width: 75%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"> <span>75%</span></div>
-                                </div>
-                                <div class="progress">
-                                    <div class="lead"><i class="fa fa-camera" aria-hidden="true"></i> Photography </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="80%" style="width: 80%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"><span>80%</span> </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="lead"> <i class="fa fa-server" aria-hidden="true"></i> Server
-                                        Administration </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="97%" style="width: 97%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"><span>97%</span> </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6 skill">
-                                <h2>TRANSFERABLE SKILLS</h2>
-                                <div class="progress">
-                                    <div class="lead"><i class="fa fa-comments" aria-hidden="true"></i> Communication
-                                    </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="75%" style="width: 75%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"> <span>75%</span></div>
-                                </div>
-
-                                <div class="progress">
-                                    <div class="lead"><i class="fa fa-users" aria-hidden="true"></i> Team Work</div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="80%" style="width: 80%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"><span>80%</span> </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="lead"><i class="fa fa-trophy" aria-hidden="true"></i> LeaderShip </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="97%" style="width: 97%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"><span>97%</span> </div>
-                                </div>
-                                <div class="progress">
-                                    <div class="lead"><i class="fa fa-clock-o" aria-hidden="true"></i> Time Management
-                                    </div>
-                                    <div class="progress-bar wow fadeInLeft" data-progress="70%" style="width: 70%;"
-                                        data-wow-duration="1.5s" data-wow-delay="1.2s"><span>70%</span> </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="row skill-language">
-                            <h2>LANGUAGE SKILLS & KNOWLEDGE</h2>
-                            <div class="col-sm-12">
-                                <div class="skills wow fadeInUp">
-                                    <div class="col-md-12">
-                                        <div class="percentage easyPieChart" data-percent="75" data-delay="100"><span>75</span>%<canvas
-                                                width="165" height="165"></canvas></div>
-                                        <small>English</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- END SKILLS SECTION-->
-
-
-                <!-- START RESUMES SECTION-->
-                <section id="resumes" class="section wow fadeInUp">
-                    <div class="container-section">
-                        <div class="row">
-                            <div class="section-title">
-                                <h4>Resumes</h4>
-                            </div>
-                        </div>
-                        <div class="resume-section education">
-                            <div class="timeline-container">
-                                <div class="timeline-block wow fadeInLeft">
-                                    <div class="timeline-img" data-anim-effect="zoomIn">
-                                        <i>2016</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInLeft">
-                                        <h2>Google Inc.</h2>
-                                        <p>Intern ( July 2016 - Present)</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-block wow fadeInRight">
-                                    <div class="timeline-img" data-anim-effect="zoomIn" data-anim-delay="100">
-                                        <i>2014</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInRight" data-anim-delay="100">
-                                        <h2>Apple Inc.</h2>
-                                        <p>Front End Developer ( Jan 2014 - Dec 2015 )</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-block wow fadeInLeft">
-                                    <div class="timeline-img" data-anim-effect="zoomIn" data-anim-delay="200">
-                                        <i>2013</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInLeft" data-anim-delay="200">
-                                        <h2>Facebook co.</h2>
-                                        <p>Manager Web Development ( Jan 2013 - Dec 2013 )</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block wow fadeInRight">
-                                    <div class="timeline-img" data-anim-effect="zoomIn" data-anim-delay="200">
-                                        <i>2012</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInLeft" data-anim-delay="200">
-                                        <h2>DDB Worldwide</h2>
-                                        <p>Intern ( July 2012 - Dec 2013 )</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block wow fadeInLeft">
-                                    <div class="timeline-img" data-anim-effect="zoomIn" data-anim-delay="200">
-                                        <i>2010</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInLeft" data-anim-delay="200">
-                                        <h2>Maronia Software</h2>
-                                        <p>Intern ( July 2009 - Dec 2010 )</p>
-                                    </div>
-                                </div>
-                                <div class="timeline-block wow fadeInLeft">
-                                    <div class="timeline-img" data-anim-effect="zoomIn" data-anim-delay="200">
-                                        <i>2009</i>
-                                    </div>
-
-                                    <div class="timeline-content" data-anim-effect="fadeInLeft" data-anim-delay="200">
-                                        <h2>Marosoft Co.</h2>
-                                        <p>Intern ( July 2008 - Dec 2009 )</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- END RESUMES SECTION-->
-
-                <!-- START CONTACT SECTION-->
-                <section id="contact" class="section wow fadeInUp">
-                    <div class="container-section">
-                        <div class="row">
-                            <div class="section-title">
-                                <h4>Contact Me </h4>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 map" id="map" style=" pointer-events: none;"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <h2>Contact Address</h2>
-                                <div class="contact-block wow fadeInLeft">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    <p><b>Address: </b> 95/6F Tan Thoi Nhi Ward, Hoc Mon District, HCM City </p>
-                                </div>
-                                <div class="contact-block wow fadeInLeft">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <p><b>Phone: </b>+84 0934193416</p>
-                                </div>
-                                <div class="contact-block wow fadeInLeft">
-                                    <i class="fa fa-skype" aria-hidden="true"></i>
-                                    <p><b>Skype: </b> e.example</p>
-                                </div>
-                                <div class="contact-block wow fadeInLeft">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    <p><b>Email: </b> <a href="mailto:huydinhquoc7@gmail.com">huydinhquoc7@gmail.com</a></p>
-                                </div>
-                                <div class="contact-block wow fadeInLeft">
-                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                    <p><b>Website </b> <a href="#">www.mycv.com</a></p>
-                                </div>
-
-                                <div class="contact-block wow fadeInLeft">
-                                    <div class="social-profiles">
-                                        <a class="hvr-pulse-grow facebook" href="https://www.facebook.com/huyniel"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow instagram" href="https://www.instagram.com/huyniel/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                        <a class="hvr-pulse-grow github" href="https://github.com/huydinh96"><i class="fa fa-github" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <h2>LET’S HAVE A FUN</h2>
-                                <div id="show_contact_msg"></div>
-                                <form method="post" id="contact_form" action="contact.php">
-                                    <input type="text" name="name" id="contact_name" placeholder="Your Name" class="wow fadeInRight">
-                                    <input type="text" name="email" id="contact_email" placeholder="Email" class="wow fadeInRight">
-                                    <input type="text" name="phone" id="contact_phone" placeholder="Phone" class="wow fadeInRight">
-                                    <textarea name="message" id="contact_text" placeholder="Your Message" class="wow fadeInRight"></textarea>
-                                    <button class="btn btn-primary wow fadeInRight" type="submit" value="Send Now">Send
-                                        Now</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- END CONTACT SECTION-->
-            </div>
-            <!-- END CONTENT  -->
+      <div class="row">
+        <!-- START LEFT SIDE -->
+        <div class="col-sm-3 col-md-2 sidebar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="assets/images/my.jpg" alt="logo"
+            /></a>
+          </div>
+          <ul class="nav nav-sidebar" id="navbar">
+            <li class="active">
+              <a href="#home" class="page-scroll"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#skills" class="page-scroll">Skills</a></li>
+            <li><a href="#resumes" class="page-scroll">Resumes</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+          <div class="copyright">
+            <p>Copyright © 2018-Present BY <a href="#">QUOC HUY</a></p>
+          </div>
         </div>
+        <!-- END LEFT SIDE -->
+
+        <!-- START CONTENT  -->
+        <div
+          class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main scroll-page"
+        >
+          <!-- START HOME SECTION-->
+          <section
+            id="home"
+            class="home"
+            style="background: url('assets/images/bg.jpg');"
+          >
+            <div class="home-overlay"></div>
+            <div class="home-content" id="scroll-down">
+              <div class="home-intro">
+                <h2>Hello I'm</h2>
+                <h1>DINH QUOC HUY</h1>
+                <div class="type-wrap">
+                  <div id="typed-strings">
+                    <span>Web Developer</span>
+                    <span>Frontend Developer</span>
+                  </div>
+                  <span id="typed" style="white-space:pre;"></span>
+                </div>
+                <a
+                  download="huyCV.pdf"
+                  class="download-link hvr-shutter-out-horizontal"
+                  onclick="Materialize.toast('Resume Download Successfully', 4000, 'rounded')"
+                  data-position="left"
+                  data-delay="50"
+                  href="huyCV.pdf"
+                  >Download My CV <i class="fa fa-download"></i
+                ></a>
+              </div>
+              <a
+                class="scroll-down page-scroll"
+                title="Scroll Down"
+                href="#about"
+                ><i class="fa fa-circle" aria-hidden="true"></i
+              ></a>
+            </div>
+          </section>
+          <!-- START HOME SECTION-->
+
+          <!-- START ABOUT SECTION-->
+          <section id="about" class="section wow fadeInUpBig">
+            <div class="container-section">
+              <div class="row">
+                <div class="section-title">
+                  <h4>About Me</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-3 profile-pic">
+                  <a class="profile-img" href="index.html"
+                    ><img src="assets/images/my.jpg" alt="image"
+                  /></a>
+                  <h3 class="info-position">Front End Developer</h3>
+                </div>
+                <div class="col-sm-9">
+                  <div class="about-info row">
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Name</span>
+                        Dinh Quoc Huy
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Email</span>
+                        huydinhquoc7@gmail.com
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i
+                          class="fa fa-volume-control-phone"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Phone</span>
+                        0934193416
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Date Of Birthday</span>
+                        12 Octember 1996
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Address</span>
+                        95/6F Tan Thoi Nhi Ward, Hoc Mon District, HCM City
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 info-block wow fadeInRight">
+                      <div class="info-icon hvr-trim">
+                        <i class="fa fa-flag" aria-hidden="true"></i>
+                      </div>
+                      <div class="info-text">
+                        <span>Nationality</span>
+                        Viet Nam
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 social-profiles">
+                      <span>Social Profiles </span>
+                      <a
+                        class="hvr-pulse-grow facebook"
+                        href="https://www.facebook.com/huyniel"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        class="hvr-pulse-grow instagram"
+                        href="https://www.instagram.com/huyniel/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a class="hvr-pulse-grow google" href="#"
+                        ><i class="fa fa-google-plus" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        class="hvr-pulse-grow github"
+                        href="https://github.com/huydinh96"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></a>
+                    </div>
+
+                    <div class="col-sm-12 about-content">
+                      <p>
+                        I have more than <b>6 months of experience</b> in the
+                        field of <b>Front-End</b> Develop.
+                      </p>
+
+                      <p>
+                        I have researched about <b>PHP Framework (Laravel)</b>,
+                        <b>NodeJS</b>, <b>ReactJS</b>,... And I feel interested
+                        in <b>NodeJS</b> and <b>ReactJS</b>. I think its is
+                        flexible and very appropriate for many other purposes’s
+                        projects.
+                      </p>
+                      <p>
+                        I think teamwork skills, research skills and problem
+                        solving skills are very necessary for a developer.
+                      </p>
+                      <p>
+                        In the future, I want to research more about React
+                        Native
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END ABOUT SECTION-->
+
+          <!-- START SKILLS SECTION-->
+          <section id="skills" class="section wow fadeInUp">
+            <div class="container-section">
+              <div class="row">
+                <div class="section-title">
+                  <h4>Skills</h4>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 skill">
+                  <h2>Coding Skill</h2>
+
+                  <div class="progress">
+                    <div class="lead">Javascript /Jquery (ES5/6)</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="75%"
+                      style="width: 75%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>75%</span>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="lead">NodeJs</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="65%"
+                      style="width: 65%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>65%</span>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="lead">HTML/CSS</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="85%"
+                      style="width: 85%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>85%</span>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="lead">ReactJS</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="75%"
+                      style="width: 75%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>75%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 skill">
+                  <h2>Ohter SKILLS</h2>
+                  <div class="progress">
+                    <div class="lead">GIT</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="65%"
+                      style="width: 65%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>65%</span>
+                    </div>
+                  </div>
+                  <div class="progress">
+                    <div class="lead">MySQL / MongoDB</div>
+                    <div
+                      class="progress-bar wow fadeInLeft"
+                      data-progress="65%"
+                      style="width: 65%;"
+                      data-wow-duration="1.5s"
+                      data-wow-delay="1.2s"
+                    >
+                      <span>65%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row skill-language">
+                <h2>LANGUAGE SKILLS & KNOWLEDGE</h2>
+                <div class="col-sm-12">
+                  <div class="skills wow fadeInUp">
+                    <div class="col-md-12">
+                      <div
+                        class="percentage easyPieChart"
+                        data-percent="75"
+                        data-delay="100"
+                      >
+                        <span>75</span>%<canvas
+                          width="165"
+                          height="165"
+                        ></canvas>
+                      </div>
+                      <small>English</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END SKILLS SECTION-->
+
+          <!-- START RESUMES SECTION-->
+          <section id="resumes" class="section wow fadeInUp">
+            <div class="container-section">
+              <div class="row">
+                <div class="section-title">
+                  <h4>Resumes</h4>
+                </div>
+              </div>
+              <div class="resume-section education">
+                <div class="timeline-container">
+                  <div class="timeline-block wow fadeInLeft">
+                    <div class="timeline-img" data-anim-effect="zoomIn">
+                      <i>2018</i>
+                    </div>
+
+                    <div class="timeline-content" data-anim-effect="fadeInLeft">
+                      <h2>Vitop media</h2>
+                      <p>Intern ( April 2018 - Oct 2018 )</p>
+                    </div>
+                  </div>
+                  <div class="timeline-block wow fadeInRight">
+                    <div
+                      class="timeline-img"
+                      data-anim-effect="zoomIn"
+                      data-anim-delay="100"
+                    >
+                      <i>2014</i>
+                    </div>
+
+                    <div
+                      class="timeline-content"
+                      data-anim-effect="fadeInRight"
+                      data-anim-delay="100"
+                    >
+                      <h2>Saigon Technology University</h2>
+                      <p>
+                        I studied Information Technology Course. My course had
+                        finised,but Im still an undergraduate student
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END RESUMES SECTION-->
+
+          <!-- START CONTACT SECTION-->
+          <section id="contact" class="section wow fadeInUp">
+            <div class="container-section">
+              <div class="row">
+                <div class="section-title">
+                  <h4>Contact Me</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 map"
+                  id="map"
+                  style=" pointer-events: none;"
+                ></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2>Contact Address</h2>
+                  <div class="contact-block wow fadeInLeft">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p>
+                      <b>Address: </b> 95/6F Tan Thoi Nhi Ward, Hoc Mon
+                      District, HCM City
+                    </p>
+                  </div>
+                  <div class="contact-block wow fadeInLeft">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p><b>Phone: </b>+84 0934193416</p>
+                  </div>
+                  <div class="contact-block wow fadeInLeft">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                    <p><b>Skype: </b> e.example</p>
+                  </div>
+                  <div class="contact-block wow fadeInLeft">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>
+                      <b>Email: </b>
+                      <a href="mailto:huydinhquoc7@gmail.com"
+                        >huydinhquoc7@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                  <div class="contact-block wow fadeInLeft">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <p><b>Website </b> <a href="#">www.mycv.com</a></p>
+                  </div>
+
+                  <div class="contact-block wow fadeInLeft">
+                    <div class="social-profiles">
+                      <a
+                        class="hvr-pulse-grow facebook"
+                        href="https://www.facebook.com/huyniel"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        class="hvr-pulse-grow instagram"
+                        href="https://www.instagram.com/huyniel/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a class="hvr-pulse-grow google" href="#"
+                        ><i class="fa fa-google-plus" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        class="hvr-pulse-grow github"
+                        href="https://github.com/huydinh96"
+                        ><i class="fa fa-github" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2>LET’S HAVE A FUN</h2>
+                  <div id="show_contact_msg"></div>
+                  <form method="post" id="contact_form" action="contact.php">
+                    <input
+                      type="text"
+                      name="name"
+                      id="contact_name"
+                      placeholder="Your Name"
+                      class="wow fadeInRight"
+                    />
+                    <input
+                      type="text"
+                      name="email"
+                      id="contact_email"
+                      placeholder="Email"
+                      class="wow fadeInRight"
+                    />
+                    <input
+                      type="text"
+                      name="phone"
+                      id="contact_phone"
+                      placeholder="Phone"
+                      class="wow fadeInRight"
+                    />
+                    <textarea
+                      name="message"
+                      id="contact_text"
+                      placeholder="Your Message"
+                      class="wow fadeInRight"
+                    ></textarea>
+                    <button
+                      class="btn btn-primary wow fadeInRight"
+                      type="submit"
+                      value="Send Now"
+                    >
+                      Send Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END CONTACT SECTION-->
+        </div>
+        <!-- END CONTENT  -->
+      </div>
     </div>
     <a href="#" class="goto-top"><span class="fa fa-arrow-up"></span></a>
     <!-- Javascript Files
@@ -429,36 +535,53 @@
     <script src="assets/js/jquery.isotope.js"></script>
     <script src="assets/js/materialize.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkdsK7PWcojsO-o_q2tmFOLBfPGL8k8Vg"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/gmap3.js"></script>
     <script type="text/javascript">
-        new WOW().init();
+      var wow = new WOW();
+      wow.init();
 
-        function initialize() {
-            var mapOptions = {
-                center: new google.maps.LatLng(-37.817283, 144.955763),
-                zoom: 15,
-                zoomControl: false,
-                scaleControl: false,
-                scrollwheel: false,
-                disableDoubleClickZoom: true,
-            };
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(10.8931346, 106.5830371),
+          zoom: 15,
+          zoomControl: true,
+          scaleControl: true,
+          scrollwheel: true,
+          disableDoubleClickZoom: true
+        };
 
-            var map = new google.maps.Map(document.getElementById('map'),
-                mapOptions);
+        var map = new google.maps.Map(
+          document.getElementById("map"),
+          mapOptions
+        );
 
-            var marker = new google.maps.Marker({
-                map: map,
-                position: map.getCenter()
-            });
-            var infowindow = new google.maps.InfoWindow();
-            infowindow.setContent('<img src="assets/images/map.png" alt="image" />');
-            google.maps.event.addListener(marker, 'load', function () {
-                infowindow.open(map, marker);
-            });
-            infowindow.open(map, marker);
-        }
+        var marker = new google.maps.Marker({
+          map: map
+          // position: map.getCenter()
+        });
+        var infowindow = new google.maps.InfoWindow();
+        google.maps.event.addListener(marker, "load", function() {
+          infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+      }
 
-        google.maps.event.addDomListener(window, 'load', initialize);
+      google.maps.event.addDomListener(window, "load", initialize);
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyA6eidGskYwBZaZkVOr7luz4he20WrZzAU",
+        authDomain: "mycv-45301.firebaseapp.com",
+        databaseURL: "https://mycv-45301.firebaseio.com",
+        projectId: "mycv-45301",
+        storageBucket: "mycv-45301.appspot.com",
+        messagingSenderId: "590024277136"
+      };
+      firebase.initializeApp(config);
     </script>
     <script src="assets/js/script.js"></script>
 
@@ -490,6 +613,5 @@
 
     </div> -->
     <!-- Style Switcher / End -->
-</body>
-
+  </body>
 </html>
